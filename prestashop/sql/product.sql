@@ -25,3 +25,4 @@ FROM `ps_range_weight` AS rw
 INNER JOIN ps_carrier_zone AS cz ON rw.id_carrier=cz.id_carrier
 INNER JOIN ps_zone AS z ON z.id_zone=cz.id_zone
 WHERE rw.id_carrier=61 AND z.id_zone=7
+
